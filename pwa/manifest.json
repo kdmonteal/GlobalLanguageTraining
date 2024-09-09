@@ -1,0 +1,22 @@
+{
+    "name": "PWA con Cámara y Micrófono",
+    "short_name": "PWA Cámara",
+    "description": "Una aplicación web progresiva con acceso al micrófono y cámara.",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#317EFB",
+    "icons": [
+      {
+        "src": "icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

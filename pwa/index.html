@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#317EFB"/>
+  <link rel="manifest" href="./manifest.json">
+  <title>PWA - Cámara y Micrófono</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>PWA con Cámara y Micrófono</h1>
+
+  <button id="startCamera">Iniciar Cámara</button>
+  <button id="startMic">Iniciar Grabación</button>
+
+  <video id="cameraStream" autoplay style="width: 100%;"></video>
+  <audio id="audioStream" controls style="display:none;"></audio>
+
+  <script src="./script.js"></script>
+</body>
+</html>
